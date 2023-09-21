@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+   display: flex;
+   flex-direction: column;
+}
+.kwara{
+    background-image: url(./Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.web{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.web3{
+    display: flex;
+    gap: 50px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: 'poppins';
+}
+svg{
+    display: none;
+    color: white;
+}
+button{
+    height: 30px;
+    width: 70px;
+    background-color: #EB780D;
+    color: white;
+    border: none;
+    font-family: 'poppins';
+}
+.ilorin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    margin-top: 70px;
+}
+.first{
+    color: white;
+    font-size: xx-large;
+    font-family: 'poppins';
+}
+.all{
+    color: lightgray;
+    font-family: 'poppins';
+}
+.here{
+    margin-right: 50px;
+}
+.here button{
+    height: 40px;
+    width: 150%;
+    color: white;
+    border: none;
+    margin-bottom: 50px;
+    font-family: 'poppins';
+}
+.about{
+    background-color: rgb(245, 223, 227);
+    display: flex;
+    justify-content: space-around;
+}
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.us{
+    font-family: 'poppins';
+    font-size: large;
+}
+.platform{
+    font-family: 'poppins';
+    color: gray;
+}
+.usimage img{
+    height: 50vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upcoming{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    font-family: 'poppins';
+}
+.up{
+    margin-top: 50px;
+    font-family: 'poppins';
+}
+.blockchain{
+    display: flex;
+    gap: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.block{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    width: 30%;
+    gap: 10px;
+    box-shadow:3px 2px 7px rgb(0, 0, 0, 0.15)
+}
+.chain img{
+    height: 35vh;
+}
+.intro{
+    color: gray;
+}
+.meet{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 223, 227);
+    font-family: 'poppins';
+    gap: 70px;
+}
+.org{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.oma{
+    display: flex;
+    justify-content: space-around;
+}
+.ope{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ope img{
+    height: 35vh;
+}
+.opeyemi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.opeyemi img{
+    height: 5vh;
+}
+.yemi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.founder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.oma1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+.visitor{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'poppins';
+}
+.visit img{
+    height: 50vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+.visiting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;  
+}
+.send button{
+    height: 40px;
+    width: 50%;
+    color: white;
+    border: none;
+    margin-bottom: 50px;
+    font-family: 'poppins';
+}
+.follow{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'poppins';
+    background-color: rgb(240, 237, 237);
+}
+.on{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.media img{
+    height: 5vh;
+}
+.dard{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width:700px){
+    .kwara{
+        display: flex;
+        flex-direction: column;
+    }
+    ul{
+        display: none;
+    }
+    svg{
+        display: block;
+        margin-top: 22px;
+    }
+    .web img{
+        height: 10vh;
+        margin-top: 15px;
+    }
+    button{
+        margin-top: 16px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .aboutus{
+        margin-top: 40px;
+        width: 90%;
+        font-size: small;
+    }
+    .first{
+        font-size: xx-large;
+        width: 90%;
+    }
+    .blockchain{
+        display: flex;
+        flex-direction: column;
+    }
+    .block{
+        display: flex;
+        width: 100%;
+    }
+    .oma{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .ope{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .oma1{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .visitor{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .visit img{
+        height: 45vh;
+    }
+    .visiting{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        font-size: medium;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .nice{
+        font-size: small;
+    }
+    .follow{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .on{
+        margin-bottom: 40px;
+    }
+}
