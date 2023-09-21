@@ -322,4 +322,7 @@ button{
     .on{
         margin-bottom: 40px;
     }
+    .web3 button{
+        display: none;
+    }
 }
